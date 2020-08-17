@@ -28,6 +28,10 @@ gosuImage.addEventListener("click", function () {
         alert("선택을 잘해야지ㅎㅎ");
       }
     });
+    const choice = function () {
+      alert("선택을 잘해야지 ^^");
+    };
+    setInterval(choice, 1000);
   } else {
     gosuImage.setAttribute("src", "images/gosu.png");
     gosuImage.classList.remove("bigger-gosu");
