@@ -1,0 +1,83 @@
+body {
+  background-color: #5138c2;
+  text-align: center;
+  font-family: "Sunflower", sans-serif;
+}
+
+.title {
+  font-size: 4rem;
+  padding-top: 30px;
+  color: #fff;
+  margin-bottom: 50px;
+  text-shadow: #fc0 1px 0px 20px;
+}
+
+.main {
+  background-color: #6647e9;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.container-fluid {
+  width: 90%;
+  box-shadow: 2px 1px 3px 0px #222122;
+}
+
+.question {
+  color: #fff;
+  padding: 30px 0 20px;
+  font-size: 40px;
+}
+
+hr {
+  border: 1px solid #a496a8;
+  width: 90%;
+  border-bottom: none;
+  margin: none;
+}
+
+/* Battle section */
+
+.picture {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 300px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+img:hover {
+  cursor: pointer;
+  border: 3px solid red;
+}
+
+.vs {
+  color: #ffffff;
+  font-size: 5rem;
+  margin: auto 0px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  color: #fff;
+  font-size: 40px;
+}
+
+.retry {
+  background-color: #ffbe15;
+  color: #fff;
+  border: none;
+  width: 200px;
+  font-size: 40px;
+  margin-bottom: 50px;
+  box-shadow: 5px 3px 5px #19191a;
+}
