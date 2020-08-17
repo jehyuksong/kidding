@@ -86,11 +86,14 @@ img:hover {
 
 .bigger-jehyuk {
   width: 600px;
+  position: relative;
+  bottom: 100px;
+  right: 30px;
 }
 
 .bigger-gosu {
   width: 600px;
-  position: absolute;
+  position: relative;
   bottom: 100px;
   right: 30px;
 }
